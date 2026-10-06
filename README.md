@@ -10,7 +10,7 @@ Esta automatización tiene dos flujos principales (Rutas):
 
 1. **🎙️ Procesamiento de Partes de Trabajo (Notas de Voz):**
    - Recibe una nota de voz a través de Telegram detallando un trabajo realizado.
-   - Utiliza **Whisper (OpenAI)** para transcribir el audio a texto.
+   - Utiliza **gpt-4o-mini-transcribe** para transcribir el audio a texto.
    - Utiliza **GPT-4o-mini** para extraer datos estructurados: *Fecha del trabajo, Cliente/Obra, Horas trabajadas, Materiales utilizados y Observaciones*.
    - Guarda automáticamente estos datos en una nueva fila de **Google Sheets**.
 
